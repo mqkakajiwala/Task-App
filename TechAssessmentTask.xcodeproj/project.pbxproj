@@ -18,9 +18,12 @@
 		4510A2F722270639003E03E3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510A2F622270639003E03E3 /* DetailViewController.swift */; };
 		4510A2F922270793003E03E3 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510A2F822270793003E03E3 /* UIView.swift */; };
 		4510A2FB22271496003E03E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4510A2BF2226E832003E03E3 /* Assets.xcassets */; };
+		451C1AA422283CC200677063 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1AA322283CC200677063 /* SDWebImage.framework */; };
+		451C1AA622283CC200677063 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1AA522283CC200677063 /* SVProgressHUD.framework */; };
+		451C1AA822283CC200677063 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1AA722283CC200677063 /* SwiftyJSON.framework */; };
+		451C1AAA22283CD500677063 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1AA922283CD500677063 /* Alamofire.framework */; };
 		4557C2C12228300C00933DC6 /* TechAssessmentTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557C2C02228300C00933DC6 /* TechAssessmentTaskTests.swift */; };
 		4557C2D12228320400933DC6 /* TechAssessmentTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557C2D02228320400933DC6 /* TechAssessmentTaskUITests.swift */; };
-		C21809D12580DF7AB9403DC3 /* Pods_Technology_Assessment___Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE1B2DE73764DE1BD686A5 /* Pods_Technology_Assessment___Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,10 @@
 		4510A2F42226FE7B003E03E3 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		4510A2F622270639003E03E3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4510A2F822270793003E03E3 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		451C1AA322283CC200677063 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451C1AA522283CC200677063 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451C1AA722283CC200677063 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451C1AA922283CD500677063 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4557C2BE2228300C00933DC6 /* TechAssessmentTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechAssessmentTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4557C2C02228300C00933DC6 /* TechAssessmentTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechAssessmentTaskTests.swift; sourceTree = "<group>"; };
 		4557C2C22228300C00933DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,7 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21809D12580DF7AB9403DC3 /* Pods_Technology_Assessment___Task.framework in Frameworks */,
+				451C1AAA22283CD500677063 /* Alamofire.framework in Frameworks */,
+				451C1AA422283CC200677063 /* SDWebImage.framework in Frameworks */,
+				451C1AA622283CC200677063 /* SVProgressHUD.framework in Frameworks */,
+				451C1AA822283CC200677063 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,10 @@
 		406097B8AE2DE6DE03EF8D9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				451C1AA922283CD500677063 /* Alamofire.framework */,
+				451C1AA322283CC200677063 /* SDWebImage.framework */,
+				451C1AA522283CC200677063 /* SVProgressHUD.framework */,
+				451C1AA722283CC200677063 /* SwiftyJSON.framework */,
 				56DE1B2DE73764DE1BD686A5 /* Pods_Technology_Assessment___Task.framework */,
 				F6952111A9E28E4C4545AE14 /* Pods_Technology_Assessment___TaskTests.framework */,
 				7E01AA89DA47493857DF04D4 /* Pods_Technology_Assessment___TaskUITests.framework */,
